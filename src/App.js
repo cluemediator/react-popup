@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Popup from './Popup';
 
 function App() {
-  const [isOpen, setOpenPoup] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const togglePopup = () => {
-    setOpenPoup(!isOpen);
+    setIsOpen(!isOpen);
   }
 
   return <div>
